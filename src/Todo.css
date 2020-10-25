@@ -1,0 +1,65 @@
+.Todo, 
+.EditTodo{
+    height: 40px;
+    padding: 0;
+    display: flex;
+}
+
+.Todo{ margin-bottom: 5px; }
+
+.EditTodo{ margin-bottom: 20px; }
+
+.Todo span,
+.EditTodo input{
+    color: #555;
+    display: inline-block;
+    padding: 10px;
+}
+
+.EditTodo input{ width: 80%; }
+
+.Todo span{
+    background-color: #00cec911;
+    width: 74%;
+}
+
+.Todo .edit,
+.Todo .delete,
+.Todo .done,
+.EditTodo .save,
+.EditTodo .cancel{
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: all .1s;
+    text-transform: uppercase;
+    width: 10%;
+    height: 100%;
+    padding: 10px;
+}
+
+.Todo .done{
+    background-color: #81ecec;
+    width: 6%;
+}
+
+.Todo .done:hover{
+    background-color: #00cec9;
+    width: 6%;
+}
+
+.Todo .edit{ background-color: #1dd1a1; }
+
+.Todo .edit:hover{ background-color: #10ac84; }
+
+.Todo .delete{ background-color: #ff7675; }
+
+.Todo .delete:hover{ background-color: #d63031; }
+
+.EditTodo .save{ background-color: #74b9ff; }
+
+.EditTodo .save:hover{ background-color: #0984e3; }
+
+.EditTodo .cancel{ background-color: #dfe6e9; }
+
+.EditTodo .cancel:hover{ background-color: #b2bec3; }

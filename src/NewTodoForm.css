@@ -1,0 +1,24 @@
+.NewTodoForm .form-row{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.NewTodoForm input{
+    width: 80%;
+    padding: 10px;
+    color: #555;
+}
+
+.NewTodoForm input:focus{ outline: none; }
+
+.NewTodoForm .form-row .add{
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    background-color: #74b9ff;
+    transition: all .1s;
+    text-transform: uppercase;
+    width: 20%;
+}
+
+.NewTodoForm .form-row .add:hover{ background-color: #0984e3; }
